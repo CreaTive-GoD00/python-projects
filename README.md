@@ -10,8 +10,8 @@ The projects are kept reasonably close to the implementations I created at each 
 
 ```text
 Python-projects/
-├── beginner/
-├── intermediate/
+├── Beginner Projects/
+├── Intermediate Projects/
 ├── README.md
 └── requirements.txt
 ```
@@ -66,24 +66,31 @@ The intermediate section introduces larger programs and new concepts such as:
 Selected projects include:
 
 ### Pong Game
+
 A two-player Pong game using multiple classes for paddles, the ball, and scoring.
 
 ### Turtle Crossing
+
 An arcade-style crossing game featuring randomly generated moving cars and increasing difficulty.
 
 ### Snake Game
+
 A classic Snake implementation with dynamic snake growth, collision detection, and persistent high scores.
 
 ### Mile to Km Converter
+
 A simple desktop GUI demonstrating the fundamentals of Tkinter.
 
 ### Pomodoro Timer
+
 A stateful GUI timer implementing work sessions, short breaks, long breaks, and session tracking.
 
 ### Password Manager
+
 A Tkinter application featuring password generation, clipboard integration, JSON storage, exception handling, and credential search.
 
 ### U.S. States Game
+
 An interactive geography game combining Turtle graphics with Pandas and CSV data.
 
 ## Technologies and Libraries
