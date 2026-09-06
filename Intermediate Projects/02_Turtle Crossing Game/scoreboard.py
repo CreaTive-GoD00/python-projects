@@ -1,0 +1,43 @@
+from turtle import Turtle
+
+
+LEVEL_FONT = ("Courier", 22, "bold")
+GAME_OVER_FONT = ("Courier", 36, "bold")
+
+
+class Scoreboard(Turtle):
+
+    def __init__(self):
+        super().__init__()
+
+        self.level = 1
+
+        self.hideturtle()
+        self.penup()
+        self.color("black")
+
+        self.update_scoreboard()
+
+    def update_scoreboard(self):
+        self.clear()
+
+        self.goto(-280, 250)
+
+        self.write(
+            f"Level: {self.level}",
+            align="left",
+            font=LEVEL_FONT
+        )
+
+    def increase_level(self):
+        self.level += 1
+        self.update_scoreboard()
+
+    def game_over(self):
+        self.goto(0, 0)
+
+        self.write(
+            "GAME OVER",
+            align="center",
+            font=GAME_OVER_FONT
+        )
